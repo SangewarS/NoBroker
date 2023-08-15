@@ -1,0 +1,109 @@
+     * {
+         font-family: Roboto, Arial, sans-serif;
+         
+     }
+     body{
+        background-color: antiquewhite;
+     }
+
+     #parent {
+         height: 500px;
+         width: 650px;
+         display: flex;
+         margin: 0 auto;
+         margin-top: 200px;
+         background-color: #fff;
+     }
+
+     .box {
+         height: 600px;
+         width: 600px;
+       
+     }
+
+     #box1 {
+         width: 300px;
+         background-color: #2874f0;
+     }
+
+     #box2 {
+         width: 600px;
+         background-color: #fff;
+     }
+
+     #user {
+         height: 40px;
+         width: 300px;
+         padding: 5px;
+         margin: 70px 0px 0px 50px;
+         outline: none;
+         border: none;
+         border-bottom: 1px solid blue;
+     }
+     #term {
+         height: 40px;
+         width: 300px;
+         padding: 5px;
+         margin: 30px 0px 0px 50px;
+         font-size: smaller;
+         text-decoration: none;
+         color: grey;
+     }
+    #button {
+         height: 35px;
+         width: 270px;
+         padding: 10px 20px;
+         margin: 20px 0px 0px 50px;
+         text-align: center;
+         border: 1px solid;
+         font-size: large;
+         background-color: #fb641b;
+         border: none;
+         color: #fff;
+         justify-content: center;
+         text-decoration: none;
+     }
+
+     #new {
+         display: flex;
+         align-items: flex-end;
+         justify-content: center;
+         margin-top: 250px;
+         text-decoration: none;
+         color: blue;
+     }
+
+     #text {
+         text-decoration: none;
+         color: #fff;
+     }
+
+     h1 {
+         margin-left: 20px;
+         margin-top: 40px;
+         color: #fff;
+         font-family: Arial, sans-serif;
+         font-size: x-large;
+     }
+
+     p {
+         margin-left: 20px;
+         margin-top: 40px;
+         color: #fff;
+         font-family: Arial, sans-serif;
+         font-size: large;
+         line-height: 20px;
+         color: #dbdbdb;
+     }
+
+     a {
+         text-decoration: none;
+         color: #2874f0;
+     }
+
+     #img {
+         height: 100px;
+         width: 200px;
+         margin-left: 30px;
+         margin-top: 300px;
+     }

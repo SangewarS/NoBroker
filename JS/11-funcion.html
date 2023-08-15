@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //function declaration
+        //FUNCTION CALL STATEMENT(CALLER)
+        demo()//fun hoisting
+        
+        function demo(){
+            console.log("non parameterized fun declaration");
+        } 
+
+
+        //function expression
+        var fun1=function demo2(){
+            console.log("this is fun expression");
+        }
+        fun1()//FUNCTION CALL STATEMENT
+
+
+        //ANOYMOUS FUNCTION
+        let an=function(){
+            console.log("THIS IS ANONYMOUS FUNCTION");
+        }
+        an();
+
+
+        //ARROW FUNCTION
+        let arr=()=>{
+            console.log("this id an arrow function");
+        }
+        arr();//function call statement(caller)
+
+
+        //IIFE
+        (function(){
+            console.log("THIS IS LIFE");
+        }())
+    </script>
+</body>
+</html>

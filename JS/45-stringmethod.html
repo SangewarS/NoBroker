@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str="hello";
+        console.log(str.length);
+        
+        //slice
+        console.log(str.slice(1,3));
+
+        //toUppercase():to convert the string into uppercase
+        let str2="uppercase";
+        console.log(str2.toUpperCase());
+
+        //toLower case():converts the string into lowercase
+        let str3="LOWERCASE"
+        console.log(str3.toLowerCase);
+
+        //concat()
+        let con1="hi"
+        let con2="bye"
+        console.log(con1+con2);
+        console.log(con1.concat(con2));
+
+        //chartAt(index):it is used to check the charcter with the help of itsindex
+        let char="charAt";
+        console.log(char.charAt(3));
+
+        //charcode at(index):it is used to check the charcter ASCII value
+        let char1="charCodeAt";
+        console.log(char.charCodeAt(2));
+        
+        //replace():it is used to replace the string by using new string
+        let journey="pune to goa";
+        console.log(journey.replace("pune","mumbai"));
+
+        //repeat(count):it is used to repeat the string
+        console.log(journey.repeat(5));
+
+        //startwith():it is used to check whether the string is start with a particular charcter or not means it will return false or else true
+        let start="starWith";
+        console.log(start.startWith('s'));
+        console.log(start.startWith('S'));
+
+        //endswith():it is used to check whether the string is end with a particular charcter or not if not means it will return false or else true
+        let end="endsWith"
+        console.log(end.endsWith('h'));
+        console.log(end.endsWith('H'));
+
+        //trim()
+        let trim1="trimtrim"
+        console.log(trim1);
+        console.log(trim1.length);
+        console.log(trim1.trim());
+
+        //trimstart()
+        let trim2="trimstart"
+        console.log(trim2);
+        console.log(trim2.trimstart());
+
+        //trimend()
+        let trim3="trimend"
+        console.log(trim3);
+        console.log(trim3.trimEnd());
+
+        //substr(st.index.last.index)
+        let substr="substr"
+        console.log(substr.substr(1,3));
+
+        let slice1="java Script";
+        console.log(slice1.slice(-4));
+
+        //includes();
+        let inclu="includes"
+        console.log(inclu.includes('f'));
+
+        //indexOf()
+        let inde="indexOf"
+        console.log(inde.indexOf('x'));
+    </script>
+</body>
+</html>

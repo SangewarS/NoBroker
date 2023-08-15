@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bulb{
+            height: 50px;
+            width: 50px;
+            border: 1px solid;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="bulb" id="bulb1"></div>
+    <div class="bulb" id="bulb2"></div>
+    <div class="bulb" id="bulb3"></div>
+    <script>
+        var ele=document.getElementsByClassName("bulb");
+        var choice=prompt("enter choice");
+        if(choice=="start"){
+            ele[0].style.backgroundColor="green";
+
+        }
+        else if(choice="caution"){
+            ele[1].style.backgroundColor="orange";
+
+        }
+        else if(choice="stop"){
+            ele[2].style.backgroundColor="red"
+        }
+    </script>
+</body>
+</html>

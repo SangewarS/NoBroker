@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            color: white;
+        }
+
+        body {
+            height: 1000px;
+            width: 1500px;
+        }
+
+        #main {
+            height: 1000px;
+            background-color: black;
+            padding: 100px;
+        }
+
+        body #main:hover {
+            background-image: repeating-linear-gradient(red 10%, yellow, green 15%);
+        }
+
+        #parent {
+            padding: 30px;
+            height: 300px;
+            width: 300px;
+            border: 1px solid;
+            margin-left: 400px;
+            margin-top: 100px;
+            background-color: black;
+            border-radius: 50px;
+            animation-name: ball;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+
+        @keyframes ball {
+            10% {
+                background-color: blueviolet;
+            }
+
+            20% {
+                background-color: cadetblue;
+            }
+
+            30% {
+                background-color: salmon;
+            }
+
+            40% {
+                background-color: midnightblue;
+            }
+
+            50% {
+                background-color: lawngreen;
+            }
+
+            60% {
+                height: 300px;
+                width: 300px;
+                border: 1px solid;
+                border-radius: 5%;
+                background-color: rgb(187, 15, 15);
+            }
+
+            #parent:hover {
+                height: 300px;
+                width: 300px;
+                border: 1px solid;
+                background-image: repeating-conic-gradient(red, green 10%, blue 5%, orange 5%, yellow 8%, black 5%, hotpink 10%, aqua 15%);
+
+            }
+
+            #user {
+                padding-right: 20px;
+                margin-top: 60px;
+                margin-left: 40px;
+                color: blue;
+
+            }
+
+            #user1 {
+                height: 27px;
+                border: none;
+                border-bottom: 1px solid blue;
+                color: white;
+                outline: none;
+                background-color: rgb(245, 242, 242);
+
+
+
+            }
+
+            #user2 {
+                padding-right: 20px;
+                color: blue;
+                margin-top: 50px;
+                margin-left: 40px;
+
+            }
+
+            #user3 {
+                height: 27px;
+                border: none;
+                border-bottom: 1px solid blue;
+                outline: none;
+                background-color: rgb(233, 224, 224);
+                color: white;
+
+            }
+
+            #user4 {
+                padding: 15px;
+                display: inline-block;
+                margin-top: 70px;
+                margin-left: 100px;
+                background-color: black;
+                text-decoration: none;
+                border-radius: 25px;
+                position: relative;
+                transition: width 6s, height 6s;
+
+
+            }
+
+            #l {
+                padding-top: 30px;
+                color: white;
+                text-shadow: 6px 7px 10px black;
+            }
+
+            #d {
+                color: white;
+                margin-left: 70px;
+            }
+
+            #ani {
+                height: 30px;
+                width: 30px;
+                border: 1px solid;
+                transform: rotate(30deg);
+                animation-name: square;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                position: relative;
+            }
+
+            @keyframes square {
+                0% {
+                    top: 0px;
+                    left: 0px;
+                    background-color: aqua;
+                    transform: rotate(30deg);
+                    /* background-image: linear-gradient(); */
+
+                }
+
+                25% {
+                    top: 0px;
+                    left: 1200px;
+                    background-color: blue;
+                    transform: rotate(35deg);
+                }
+
+                50% {
+                    top: 600px;
+                    left: 1200px;
+                    background-color: blueviolet;
+                    transform: rotate(40deg);
+                }
+
+                75% {
+                    top: 600px;
+                    left: 0px;
+                    background-color: brown;
+                    transform: rotate(45deg);
+                }
+
+                100% {
+                    top: 0px;
+                    left: 0px;
+                    background-color: chartreuse;
+
+                }
+            }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="ani"></div>
+        <div>
+            <h1>
+                <marquee id="l" behavior="" direction="">WELCOME PLEASE LOGIN</marquee>
+            </h1>
+        </div>
+        <div id="parent">
+            <div id="d">
+                <h1>SIGN UP</h1>
+            </div>
+            <div><a id="user" class="fa fa-user-circle" aria-hidden="true"></i><input id="user1" type="text" placeholder="Enter The UserName/Email"></div>
+
+            <div><i id="user2" class="fa fa-unlock-alt" aria-hidden="true"></i> <input id="user3" type="text" placeholder="Password"></div>
+
+            <div><a id="user4" href="http://127.0.0.1:5500/exmple.html">SIGN UP</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

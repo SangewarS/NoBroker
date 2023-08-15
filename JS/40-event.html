@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="inpt" onfocus="getFocus()">
+    <input type="text" name="" id="inpt1" onfocus="getFocusin()">
+    <script>
+        function getFocus() {
+            let a=document.getElementById("inpt")
+            a.style.backgroundColor="yellow"
+        }
+        function getFocusin() {
+            let b=document.getElementById("inpt1")
+            b.style.backgroundColor="blue"
+        }
+    </script>
+</body>
+</html>

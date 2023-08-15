@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit="getSubmit()">
+        <input type="text" name="" id="ss">
+    <input type="email" name="" id="mail">
+    <input type="submit" value="SUBMIT">
+    </form>
+ <script>
+    function getSubmit(){
+        let ele1=document.getElementById("ss").value;
+    let ele=document.getElementById("mail").value;
+    
+        if(ele=="123@gmail.com"&& ele1=="text")
+        {
+           window.alert("submitted") 
+        }
+        else{
+           window.alert("invalid")
+        }
+    }
+ </script>
+</body>
+</html>

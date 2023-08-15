@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="hello" oncopy="getCopy()" onpaste="getPaste()" oncut="getCut()">
+    <p id="print"></p>
+    <script>
+        function getCopy() {
+           
+           let print1=document.getElementById("print")
+            print1.innerHTML="U R TEXT COPIED "
+        }
+        function getPaste(){
+            let a=document.getElementById("print")
+            a.innerHTML="U R TEXT IS PASTED"
+        }
+        function getCut(){
+            let b =document.getElementById("print")
+            b.innerHTML="U R TEXT IS CUT"
+        }
+    </script>
+</body>
+</html>

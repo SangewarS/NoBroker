@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit="getSubmit()">
+     Name: <input type="text" name="" id="i1" onfocus="getFocus()">
+     Email:  <input type="email" name="" id="i2" >
+     <input type="submit" value="SUBMIT">
+     <p id="print"></p>
+    </form>
+     <script>
+          function getFocus() {
+            let a=document.getElementById("i1")
+            a.style.backgroundColor="blue"
+          }
+          function getSubmit() {
+            let b=document.getElementById("i2").value
+            if(b="example123@gmail.com")
+            {
+               let c= document.getElementById("i2").innerHTML="b"
+            }
+            else{
+                window.alert("not submitted")
+            }
+           
+
+          }
+     </script>
+</body>
+</html>

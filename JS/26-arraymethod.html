@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr1=["ranu mandal","singer",65]
+        console.log(arr1);
+        //push():IT IS USED TO ADD AN ELEMENTS (MULTIPLE) FROM LAST INDEX.
+        // arr1.push("push1","push2");
+        // console.log(arr1);
+        //pop():IT IS USED TO DELETE AN ELEMENT (SINGLE ELEMENT)FROM LAST INDEX.
+        // arr1.pop()
+        // console.log(arr1);
+
+        
+        //unshiftt():IT IS USED TO ADD AN ELEMENTS(MULTIPLE)FROM FIRST INDEX.
+        arr1.unshift(10,20,true)
+        // console.log(arr1);
+        
+        //shift():IT IS USED TO DELETE AN ELEMENT (SINGLE ELEMENT)FROM FIRST INDEX.
+        arr1.shift()
+        console.log(arr1);
+
+        //includes():IT IS USED TO CHECK THE ELEMENT IS PRESENT OR NOT ,IF YES
+        //MEANS IT WILL RETURN US TRUE OR ELSE FALSE.
+        console.log(arr1.includes(55));
+
+
+        //reserve():
+        arr1.reverse();
+        console.log(arr1);
+
+
+        //indexof():IT IIS USED TO IDENTIFY OF AN ELEMENT.
+        console.log(arr1.indexOf("singer"));
+
+        //SLICE(start.index,last index):IT IS USED TO SPLITS AN ARRAY INTO FRAGMENTS.
+        let num=[10,20,30,40,50,60]
+        console.log(num.slice(1,4));
+
+        
+        //splice 
+        let fruit=["pineaple","orange","banana"]
+        console.log(fruit);
+        // fruit.splice(2,0,"apple","sapota")
+        // console.log(fruit);
+        fruit.splice(1,2,"dragonfruit","custordapple","grapes")
+        console.log(fruit);
+    </script>
+</body>
+</html>

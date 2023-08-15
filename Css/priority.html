@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./priority.css">
+    <style>
+      /*INTERNAL CSS:ALWAYS SECOND PRIORITY IS GIVEN TO INTERNAL CSS*/
+        h1{
+           /* background-color: blueviolet;*/
+           color: aqua !important;
+
+        }
+    </style>
+</head>
+<body>
+    <!--INLINE CSS :ALWAYS FIRST PRIORITY IS GIVEN TO INLINE CSS-->
+    <!--WE CAN CHANGE PRIORITY BY USING !important-->
+    <h1 style="color: blue;">
+
+        this is priority
+    </h1>
+</body>
+</html>

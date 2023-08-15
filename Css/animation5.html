@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: hotpink;
+            border: 1px solid;
+            animation-name: box;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+
+        #box1 {
+            animation-timing-function: linear;
+        }
+
+        #box2 {
+            animation-timing-function: ease;
+        }
+
+        #box3 {
+            animation-timing-function: ease-in;
+        }
+
+        #box4 {
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes box {
+            from {
+                left: 0px;
+                background-color: brown;
+
+            }
+
+            to {
+                left: 400px;
+                background-color: aqua;
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1">BOX1</div>
+    <div class="box" id="box2">BOX2</div>
+    <div class="box" id="box3">BOX3</div>
+    <div class="box" id="box4">BOX4</div>
+</body>
+
+</html>
